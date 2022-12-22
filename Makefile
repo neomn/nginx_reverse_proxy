@@ -5,3 +5,5 @@ build:
 run:
 	# run nginx container
 	docker run -dp 80:80 nginx
+
+all: build run
